@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Nunito;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofIOOaBXso.woff2)
+      format("woff2");
+  }
+  @font-face {
+    font-family: Nunito;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofA6sKUbOvISTs.woff2)
+      format("woff2");
+  }
+  @font-face {
+    font-family: Nunito;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAjsOUbOvISTs.woff2)
+      format("woff2");
+  }
+  @font-face {
+    font-family: Nunito;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAksCUbOvISTs.woff2)
+      format("woff2");
+  }
+  @font-face {
+    font-family: Nunito;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/nunito/v16/XRXW3I6Li01BKofAtsGUbOvISTs.woff2)
+      format("woff2");
+  }
+}
